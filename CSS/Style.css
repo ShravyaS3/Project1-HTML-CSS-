@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "montserrat", serif;
+}
+.list-item {
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    left: 400px;
+    bottom: 45px;
+    list-style-type: none;
+}
+li:nth-child(1) {
+    text-decoration: dashed;
+    font-weight:900;
+    border-bottom: 2px solid #000;
+    border-radius: 2px;
+    padding-bottom: 4px;
+}
+.button-group {
+    
+    position: relative;
+    left: 1000px; 
+    bottom: 65px; 
+    display: flex;
+    width: 150px;
+    justify-content: space-around; 
+}
+svg {
+    width: 20px;
+    position: relative;
+    bottom: 5px;
+}
+.nav-button {
+    padding: 5px 25px;
+    border-radius: 8px;
+}
+.container {
+    position: relative;
+    left: 50px;
+    top: 35px;
+}
+.hero-container {
+    position: relative;
+    top: 50px;
+}
+.globe {
+    position: absolute;
+    top: -80px;
+    left: 600px;
+}
+.globe img {
+    width: 50px;
+}
+.star {
+    position: absolute;
+    top: -60px;
+    left: 1000px;
+}
+.globe + div {
+    position: absolute;
+    top: 0px;
+}
+.hero-container .square > img {
+    width:240px;
+}
+.globe + div img {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    bottom: 40px;
+
+}
+.square {                                                                         
+    position : relative;
+    left : 110px;
+    top : 160px;
+    width : 150px;
+    height : 100px;
+    z-index : -1; 
+ } 
+ .hero-container-right {
+    width: 600px;
+ }
+ .hero-container-right h1 {
+    position: relative;
+    left: 520px;
+    bottom: 200px;
+    font-size: 60px;   
+ }
+ .hero-container-right p {
+    position: relative;
+    left: 530px;
+    bottom: 150px;
+    line-height: 1.4;
+    color: rgb(87, 86, 86);
+    text-align: center; 
+}
+.button-email {
+    position: relative;
+    left: 650px;
+    bottom: 100px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    background-color: #fff;
+}
+.button-join {
+    position: relative;
+    left: 650px;
+    bottom: 100px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: #fff;
+    background-color: #000;
+}
+.contact-heading {
+    position: relative;
+    left: 730px;
+    bottom: 50px;
+    font-size: 25px;
+}
+.icons {
+    position: relative;
+    left: 700px;
+    bottom: 20px;
+}
