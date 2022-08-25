@@ -22,3 +22,6 @@
 ![Badge](https://img.shields.io/badge/-Below%20is%20the%20Live--Link-informational)
 
 [Live-Link](https://project1-htmlcss.netlify.app/)
+
+
+![Thumbnail](./assets/1.png)
